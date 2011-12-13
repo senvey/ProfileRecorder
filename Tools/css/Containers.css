@@ -1,0 +1,147 @@
+/*
+
+	ProfileRecorder, record user's info so that it could be browsed offline.
+	Copyright 2007 Senvey Lee
+	Email me at senvey@gmail.com
+
+	This file is part of ProfileRecorder.
+
+	ProfileRecorder is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	ProfileRecorder is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with ProfileRecorder; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+
+.BlankBagSlot
+{
+	height: 38px;
+	width: 38px;
+}
+.Bag
+{
+	height: 38px;
+	width: 38px;
+	cursor: hand;
+}
+.ContainerItem
+{
+	position: relative;
+	float:left;
+	height: 38px;
+	width: 38px;
+}
+.ContainerItem .ItemCount
+{
+	position: absolute;
+	color: White;
+	cursor: default;
+}
+
+#Bank 
+{
+	width: 356px;
+	margin-bottom: 5px;
+	border: solid 1px #cccccc;
+}
+#Bank .BlankSlot
+{
+	width: 38px;
+	height: 38px;
+	border: solid 1px #cccccc;
+}
+#Bank .BlankBagSlot
+{
+	margin: 5 5 5 5;
+	filter: Light();
+}
+#Bank .Bag
+{
+	margin: 5 5 5 5;
+}
+#Bank .ContainerItem
+{
+	margin: 5 5 5 5;
+}
+#Bank #Head
+{
+	width: 356px;
+	background-color: #111111;
+	color: #46ABFF;
+	font-weight: bold;
+	text-align: center;
+	border-bottom: solid 1px #cccccc;
+}
+#Bank #Content 
+{
+	padding: 10px;
+	width: 356px;
+	height: 212px;
+	border-bottom: solid 1px #cccccc;
+}
+#Bank #BankBags
+{
+	padding: 10 10 10 10;
+	height: 68px;
+	width: 356px;
+}
+
+#PortableBagsContainer
+{
+	width: 358px;
+	margin-bottom: 5px;
+}
+#PortableBagsContainer #PortableBags
+{
+	float: right;
+	border: solid 3px #cccccc;
+	border-right: none;
+}
+#PortableBagsContainer #PortableBags .Bag
+{
+	border-right: solid 3px #cccccc;
+}
+
+#PortableBagContent
+{
+	width: 358px;
+}
+
+.BagContent
+{
+	float: left;
+	width: 162px;
+	height: 40px;
+	margin: 0 15 5 0;
+	border: solid 1px #cccccc;
+	display: none;
+}
+.BagContent .ContainerItem
+{
+	margin: 1 1 1 1;
+}
+.BagContent .BagTitle
+{
+	width: 160px;
+	border-bottom: solid 1px #cccccc;
+}
+.BagContent .BagTitle .BagName
+{
+	float: left;
+	color: #EDC30A;
+}
+.BagContent .BagTitle .CloseBag
+{
+	float: right;
+	border: solid 1px red;
+	cursor: hand;
+}

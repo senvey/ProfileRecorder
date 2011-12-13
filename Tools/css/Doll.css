@@ -1,0 +1,153 @@
+﻿/*
+
+	ProfileRecorder, record user's info so that it could be browsed offline.
+	Copyright 2007 Senvey Lee
+	Email me at senvey@gmail.com
+
+	This file is part of ProfileRecorder.
+
+	ProfileRecorder is free software; you can redistribute it and/or modify
+	it under the terms of the GNU General Public License as published by
+	the Free Software Foundation; either version 2 of the License, or
+	(at your option) any later version.
+
+	ProfileRecorder is distributed in the hope that it will be useful,
+	but WITHOUT ANY WARRANTY; without even the implied warranty of
+	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+	GNU General Public License for more details.
+
+	You should have received a copy of the GNU General Public License
+	along with ProfileRecorder; if not, write to the Free Software
+	Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+
+*/
+
+#Doll
+{
+	margin-top: 5px;
+	width: 353px;
+	height: 442px;
+	border: solid 1px #cccccc;
+}
+#Doll .CharacterInfoText
+{
+	color: #EDC30A;
+}
+#Doll #BasicInfo
+{
+	width: 353px;
+	height: 72px;
+	border-bottom: solid 1px #cccccc;
+}
+#Doll #BasicInfo #Portrait
+{
+	float: left;
+	width: 72px;
+	height: 72px;
+	text-align: center;
+	padding-top: 5px;
+	border-right: solid 1px #cccccc;
+}
+#Doll #BasicInfo #TextInfo
+{
+	float: right;
+	width: 281px;
+	height: 72px;
+	padding-top: 5px;
+	text-align: center;
+	font-weight: bold;
+}
+#Doll #BasicInfo #TextInfo #Misc
+{
+	margin-top: 5px;
+}
+#Doll #Character
+{
+	width: 353px;
+	padding: 15 10 0 10;
+}
+#Doll #Character .InventoryItem
+{
+	margin-bottom: 1px;
+}
+#Doll #Character .WeaponItem
+{
+	float: right;
+	margin-right: 1px;
+}
+#Doll #Character .ResistanceItem
+{
+	margin-bottom: 10px;
+	font-weight: bold;
+	color: White;
+	text-align: center;
+	cursor: default;
+}
+#Doll #Character #CharacterLeft
+{
+	float: left;
+	width: 40px;
+}
+#Doll #Character #CharacterCenter
+{
+	float: left;
+	width: 253px;
+	padding: 0 5 0 5;
+}
+#Doll #Character #CharacterCenter #HpAndMp
+{
+	float: left;
+	width: 200px;
+}
+#Doll #Character #CharacterCenter #HpAndMp .HpMpUnit
+{
+	width: 200px;
+}
+#Doll #Character #CharacterCenter #HpAndMp .FullUnit
+{
+	float: right;
+	width: 100px;
+	margin: 0 2 0 8;
+	border: solid 2px #CCCCCC;
+}
+#Doll #Character #CharacterCenter #HpAndMp .TextOnBar
+{
+	font-size: 13px;
+	color: #AAAAAA;
+}
+#Doll #Character #CharacterCenter #HpAndMp .MaxValue
+{
+	float: right;
+	width: 40px;
+	text-align: right;
+}
+#Doll #Character #CharacterCenter #Resistance
+{
+	float: right;
+	width: 32px;
+	height: 256px;
+	padding-top: 10px;
+	background-image: url(../images/interface/PaperDollInfoFrame/UI-Character-ResistanceIcons.png);
+}
+#Doll #Character #CharacterCenter #Weapon
+{
+	width: 243px;
+	vertical-align: middle;
+}
+#Doll #Character #CharacterCenter #Weapon #MainWeapons
+{
+	float: left;
+	width: 180px;
+	text-align: right;
+}
+#Doll #Character #CharacterCenter #Weapon #Ammo
+{
+	float: right;
+	width: 63px;
+	padding: 3 0 0 12;
+}
+#Doll #Character #CharacterRight
+{
+	float: right;
+	width: 40px;
+}

@@ -1,0 +1,19 @@
+﻿## Interface: 20300
+## Title: PR_NAME
+## Title-zhCN: 人物信息记录器 |cFF0099FF[Profile]|r
+## Notes: Record user's info to browser offline
+## Notes-zhCN: 记录人物信息供离线查看
+## Author: Senvey Lee
+## Version: 1.0.0
+## X-Date: Dec. 9, 2007
+## X-eMail: senvey@gmail.com
+## X-Website: 
+## X-Category: Data Export
+## X-Help: PR_HELP
+## SavedVariablesPerCharacter: ProfileRecorderOptions, ProfileDetails
+
+Locale\ProfileRecorder-enUS.lua
+Locale\ProfileRecorder-zhCN.lua
+
+ProfileRecorder.lua
+ProfileRecorder.xml
